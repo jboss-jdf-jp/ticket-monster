@@ -64,7 +64,7 @@ Those facets detected are colored green.
 
 [[project-list-faces_image]]
 .Output of `project list-facets`
-image::gfx/forge-project-list-facets.png[]
+image::../gfx/forge-project-list-facets.png[]
 
 As you can see, Forge has detected all the technologies we are using, such as JPA, JAX-RS, CDI and Bean Validation.
 
@@ -93,7 +93,7 @@ to instruct Forge to generate the css, images and templates used by the scaffold
 
 [[project-scaffold-setup]]
 .Output of `scaffold setup`
-image::gfx/forge-scaffold-setup.png[]
+image::../gfx/forge-scaffold-setup.png[]
 
 Now, we need to add RichFaces to the project. Run:
 
@@ -103,7 +103,7 @@ You'll be prompted for the version of RichFaces to use. Choose version `4.0.0.Fi
 
 [[project-richfaces-setup]]
 .Output of `richfaces setup`
-image::gfx/forge-richfaces-setup.png[]
+image::../gfx/forge-richfaces-setup.png[]
 
 
 Scaffold the view from the JPA entities

@@ -32,7 +32,7 @@ In this tutorial, we will cover the following topics:
 
 [[jbds5_mobile_browsersim_image]]
 .JBoss Developer Studio 5 with Mobile BrowserSim
-image::gfx/introduction/jbds5_mobile_browsersim.png[]
+image::../gfx/introduction/jbds5_mobile_browsersim.png[]
 
 Installation
 ------------
@@ -72,7 +72,7 @@ environment whilst keeping your IDE in 32-bit mode.
 
 [[installer-wizard_image]]
 .Installation Wizard, Step 1 of 9
-image::gfx/introduction/installer_wizard_page1.png[]
+image::../gfx/introduction/installer_wizard_page1.png[]
 
 The rest of the steps are fairly self explanatory.  If you run into trouble, please consult the videos above as they explore a few troubleshooting tips related to JRE/JDK setup.
 
@@ -107,13 +107,13 @@ First, select *Create Projects -> Java EE Web Project* in JBoss Central. Under t
 
 [[jboss-central_image]]
 .JBoss Central
-image::gfx/introduction/jboss_dev_studio_jboss_central.png[]
+image::../gfx/introduction/jboss_dev_studio_jboss_central.png[]
 
 You will be prompted with a dialog box that verifies that JBoss Developer Studio is configured correctly. If you are in a brand new workspace, the application server will not be configured yet and you will notice the lack of a check mark on the server/runtime row.
 
 [[new-project-wizard_image]]
 .New Project Wizard
-image::gfx/introduction/new_project_wizard.png[]
+image::../gfx/introduction/new_project_wizard.png[]
 
 [NOTE]
 =================================================================
@@ -136,37 +136,37 @@ Selecting *Install...* will pop up the JBoss Runtime Detection section of Prefer
 
 [[jboss_tools_runtime_detection_image]]
 .JBoss Tools Runtime Detection
-image::gfx/introduction/jboss_tools_runtime_detection.png[]
+image::../gfx/introduction/jboss_tools_runtime_detection.png[]
 
 Select the *Add* button which will take you to a file browser dialog where you should locate your unzipped JBoss server.
 
 [[runtime_open_dialog_image]]
 .Runtime Open Dialog
-image::gfx/introduction/runtime_open_dialog.png[]
+image::../gfx/introduction/runtime_open_dialog.png[]
 
 Select *Open* and JBoss Developer Studio will pop up the *Searching for runtimes...* window. 
 
 [[searching_for_runtimes_dialog_image]]
 .Searching for runtimes window
-image::gfx/introduction/searching_for_runtimes_dialog.png[]
+image::../gfx/introduction/searching_for_runtimes_dialog.png[]
 
 Simply select *OK*. You should see the added runtime in the Paths list.
 
 [[jboss_tools_runtime_detection_after_image]]
 .JBoss Tools Runtime Detection Completed
-image::gfx/introduction/jboss_tools_runtime_detection_after.png[]
+image::../gfx/introduction/jboss_tools_runtime_detection_after.png[]
 
 Select *OK* to close the *Preferences* dialog, and you will be returned to the *New Project Example* dialog, with the the server/runtime found.
 
 [[as_eap_found_image]]
 .JBoss AS 7.0/7.1 or EAP 6 Found
-image::gfx/introduction/as_eap_found.png[]
+image::../gfx/introduction/as_eap_found.png[]
 
 Select *Next*.
 
 [[new-project-wizard-step_2_image]]
 .New Project Wizard Step 2
-image::gfx/introduction/new_project_example_step_2.png[]
+image::../gfx/introduction/new_project_example_step_2.png[]
 
 The default *Project name* is `jboss-javaee6-webapp`. If this field appears blank, it is because your workspace already contains a "jboss-javaee6-webapp" in which case just provide another name for your project. Change the project name to `ticket-monster`, and the package name to `org.jboss.jdf.example.ticketmonster`.
 
@@ -178,7 +178,7 @@ JBoss Tools/JBoss Developer Studio will now generate the template project and im
 
 [[prompt_for_readme_image]]
 .New Project Wizard Step 3
-image::gfx/introduction/prompt_for_readme.png[]
+image::../gfx/introduction/prompt_for_readme.png[]
 
 Select *Finish*
 
@@ -190,7 +190,7 @@ The generated project is a Maven-based project with a `pom.xml` in its root dire
 
 [[newly_generated_project_explorer_image]]
 .Project Explorer
-image::gfx/introduction/newly_generated_project_explorer.png[]
+image::../gfx/introduction/newly_generated_project_explorer.png[]
 
 JBoss Developer Studio and JBoss Tools include m2e and m2e-wtp. m2e is the Maven Eclipse plug-in and provides a graphical editor for editing `pom.xml` files, along with the ability to run maven goals directly from within Eclipse.  m2e-wtp allows you to deploy your Maven-based project directly to any Web Tools Project (WTP) compliant application server.  This means you can drag & drop, use *Run As -> Run on Server* and other mechanisms to have the IDE deploy your application.
 
@@ -198,7 +198,7 @@ The `pom.xml` editor has several tabs along its bottom edge.
 
 [[pom_xml_tabs_image]]
 .pom.xml Editor Tabs
-image::gfx/introduction/pom_xml_tabs.png[scaledwidth="90%"]
+image::../gfx/introduction/pom_xml_tabs.png[scaledwidth="90%"]
 
 For this tutorial, we do not need to edit the `pom.xml` as it already provides the Java EE 6 APIs that we will need (e.g. JPA, JAX-RS, CDI). You should spend some time exploring the *Dependencies* and the *pom.xml* (source view) tabs.   
 
@@ -214,7 +214,7 @@ so do not be surprised if the version is slightly different.
 
 [[project_explorer_java_packages_image]]
 .Project Explorer Java Packages
-image::gfx/introduction/project_explorer_java_packages.png[]
+image::../gfx/introduction/project_explorer_java_packages.png[]
 
 Using the *Project Explorer*, drill-down into `src/main/java` under *Java Resources*.
 
@@ -237,7 +237,7 @@ Now, let's explore the resources in the project.
 
 [[project_explorer_resources_image]]
 .Project Explorer Resources
-image::gfx/introduction/project_explorer_resources.png[]
+image::../gfx/introduction/project_explorer_resources.png[]
 
 Under src you will find:
 
@@ -256,7 +256,7 @@ Under src you will find:
 
 [[visual_page_editor_image]]
 .Visual Page Editor
-image::gfx/introduction/visual_page_editor.png[]
+image::../gfx/introduction/visual_page_editor.png[]
 
 In `src/main/webapp/WEB-INF`, you will find three key files:
 
@@ -288,7 +288,7 @@ Right-click on the `.model` package in the *Project Explorer* and select *Show I
 
 [[show_in_forge_console_image]]
 .Show In Forge Console 
-image::gfx/introduction/show_in_forge_console.png[]
+image::../gfx/introduction/show_in_forge_console.png[]
 
 [TIP]
 ==============================================================================
@@ -305,7 +305,7 @@ The first time you start Forge, you will be prompted with a *Forge Not Running* 
 
 [[forge_is_not_running_image]]
 .Show Forge Not Running
-image::gfx/introduction/forge_is_not_running.png[scaledwidth="70%"]
+image::../gfx/introduction/forge_is_not_running.png[scaledwidth="70%"]
 
 [TIP]
 ==============================================================================
@@ -314,12 +314,12 @@ stop via the red square) in the Forge Console tab.
 
 [[forge_start_stop_image]]
 .Show Forge Start/Stop
-image::gfx/introduction/forge_console_tab.png[]
+image::../gfx/introduction/forge_console_tab.png[]
 ==============================================================================
 
 [[forge_console_image]]
 .Show Forge Console
-image::gfx/introduction/forge_console.png[]
+image::../gfx/introduction/forge_console.png[]
 
 Forge is a command-oriented rapid application development tool that allows you to enter commands that generate classes and code. It will automatically update the IDE for you.  A key feature is "content assist" or "tab completion", activated by pressing *tab*.
 
@@ -345,11 +345,11 @@ Now hit the Enter/Return key to watch the command execute.  The Event entity wil
 
 [[forge_event_entity_image]]
 .Forge new entity
-image::gfx/introduction/forge_event_entity.png[]
+image::../gfx/introduction/forge_event_entity.png[]
 
 [[forge_event_entity_created_image]]
 .Event Entity
-image::gfx/introduction/forge_event_entity_created.png[]
+image::../gfx/introduction/forge_event_entity_created.png[]
 
 [NOTE]
 ==============================================================================
@@ -361,7 +361,7 @@ the entity will make this look more like you would expect!
 Forge has automatically changed the context of the CLI to `Event.java`, and typing `ls` will provide a listing of the fields and methods.  
 [[forge_ls_results_image]]
 .Forge `ls`
-image::gfx/introduction/forge_ls.png[]
+image::../gfx/introduction/forge_ls.png[]
 
 Now that the base `Event` entity has been created, let's add the fields and their JSR 303 Bean Validation constraints.  
 
@@ -372,7 +372,7 @@ You should end up with the command `field string --named name`, to execute it, p
 
 [[forge_added_name_image]]
 .@Column name
-image::gfx/introduction/forge_added_name.png[scaledwidth="90%"]
+image::../gfx/introduction/forge_added_name.png[scaledwidth="90%"]
 
 From this point forward, we will assume you have the basics of using Forge's interactive command line. The remaining commands to run are:
 
@@ -389,7 +389,7 @@ The easiest way to see the results of Forge operating on the `Event.java` JPA En
 
 [[outline_of_event_image]]
 .Outline View
-image::gfx/introduction/outline_of_event.png[]
+image::../gfx/introduction/outline_of_event.png[]
 
 
 Reviewing persistence.xml & updating import.sql
@@ -433,19 +433,19 @@ Now, right-click on the editor itself, and from the pop-up, context menu select 
 
 [[generate_getters_setters_menu_image]]
 .Generate Getters and Setters Menu
-image::gfx/introduction/generate_getters_setters.png[]
+image::../gfx/introduction/generate_getters_setters.png[]
 
 This will create accessor and mutator methods for all your fields, making them accessible properties for the entity class.
 
 [[generate_getters_setters_dialog_image]]
 .Generate Getters and Setters Dialog
-image::gfx/introduction/getter_setter_dialog.png[]
+image::../gfx/introduction/getter_setter_dialog.png[]
 
 Click *Select All* and then *OK*.
 
 [[venue_after_getters_setters_image]]
 .Venue.java with gets/sets
-image::gfx/introduction/venue_after_getters_setters.png[]
+image::../gfx/introduction/venue_after_getters_setters.png[]
 
 Now, right-click on the editor, from the pop-up context menu select *Source -> Generate Hibernate/JPA Annotations*.
 
@@ -453,13 +453,13 @@ If you are prompted to save `Venue.java`, simply select OK.
 
 [[save_modified_resources_image]]
 .Save Modified Resources
-image::gfx/introduction/save_modified_resources.png[]
+image::../gfx/introduction/save_modified_resources.png[]
 
 The *Hibernate: add JPA annotations* wizard will start up. First, verify that `Venue` is the class you are working on.
 
 [[hibernate_add_jpa_image]]
 .Hibernate: add JPA annotations
-image::gfx/introduction/hibernate_add_jpa_annotations.png[]
+image::../gfx/introduction/hibernate_add_jpa_annotations.png[]
 
 Select *Next*.
 
@@ -467,7 +467,7 @@ The next step in the wizard will provide a sampling of the refactored sources â€
 
 [[hibernate_add_jpa_annotations_step2_image]]
 .Hibernate: add JPA annotations Step 2
-image::gfx/introduction/hibernate_add_jpa_annotations_step2.png[scaledwidth="80%"]
+image::../gfx/introduction/hibernate_add_jpa_annotations_step2.png[scaledwidth="80%"]
 
 Select *Finish*.
 
@@ -486,7 +486,7 @@ such as Tomcat, shut it down now to avoid any port conflicts.
 
 [[run_as_run_on_server_image]]
 .Run As -> Run on Server
-image::gfx/introduction/run_as_run_on_server.png[]
+image::../gfx/introduction/run_as_run_on_server.png[]
 
 Now, deploy the h2console webapp. You can read how to do this in the link:http://www.jboss.org/jdf/quickstarts/jboss-as-quickstart/h2-console/[h2console quickstart].
 
@@ -494,13 +494,13 @@ The *Run As -> Run on Server* option will also launch the internal Eclipse brows
 
 [[result_run_on_server_image]]
 .Eclipse Browser after Run As -> Run on Server
-image::gfx/introduction/result_run_on_server.png[]
+image::../gfx/introduction/result_run_on_server.png[]
 
 Now, go to http://localhost:8080/h2console to start up the h2 console.
 
 [[h2console_in_browser_image]]
 .h2console in browser
-image::gfx/introduction/h2console_in_browser.png[]
+image::../gfx/introduction/h2console_in_browser.png[]
 
 Use `jdbc:h2:mem:ticket-monster` as the JDBC URL (this is defined in `src/main/webapp/WEB-INF/ticket-monster-ds.xml`), `sa` as the username and `sa` as the password.
 
@@ -512,7 +512,7 @@ And if you enter the SQL statement: `select * from event` and select the *Run* (
 
 [[h2console_select_from_event.png]]
 .h2console Select * from Event
-image::gfx/introduction/h2console_select_from_event.png[]
+image::../gfx/introduction/h2console_select_from_event.png[]
 
 
 Adding a JAX-RS RESTful web service
@@ -524,7 +524,7 @@ Right-click on the `.rest` package, select *New -> Class* from the context menu,
 
 [[new_class_eventservice_image]]
 .New Class EventService
-image::gfx/introduction/new_class_eventservice.png[]
+image::../gfx/introduction/new_class_eventservice.png[]
 
 Select *Finish*.
 
@@ -555,13 +555,13 @@ This class is a JAX-RS endpoint that returns all Events.
 
 [[event_service_copy_paste_image]]
 .EventService after Copy and Paste
-image::gfx/introduction/event_service_copy_paste.png[]
+image::../gfx/introduction/event_service_copy_paste.png[]
 
 You'll notice a lot of errors, relating to missing imports. The easiest way to solve this is to right-click inside the editor and select *Source -> Organize Imports* from the context menu. 
 
 [[source_organize_imports_image]]
 .Source -> Organize -> Imports
-image::gfx/introduction/source_organize_imports.png[]
+image::../gfx/introduction/source_organize_imports.png[]
 
 Some of the class names are not unique. Eclipse will prompt you with any decisions around what class is intended. Select the following:
 
@@ -576,27 +576,27 @@ The following screenshots illustrate how you handle these decisions. The Figure 
 
 [[organize_imports_1_image]]
 .javax.ws.rs.core.MediaType
-image::gfx/introduction/organize_imports_1.png[]
+image::../gfx/introduction/organize_imports_1.png[]
 
 [[organize_imports_2_image]]
 .org.jboss.tools.examples.Event
-image::gfx/introduction/organize_imports_2.png[]
+image::../gfx/introduction/organize_imports_2.png[]
 
 [[organize_imports_3_image]]
 .javax.ws.rs.Produces
-image::gfx/introduction/organize_imports_3.png[]
+image::../gfx/introduction/organize_imports_3.png[]
 
 [[organize_imports_4_image]]
 .java.util.List
-image::gfx/introduction/organize_imports_4.png[]
+image::../gfx/introduction/organize_imports_4.png[]
 
 [[organize_imports_5_image]]
 .javax.inject.Inject
-image::gfx/introduction/organize_imports_5.png[]
+image::../gfx/introduction/organize_imports_5.png[]
 
 [[organize_imports_6_image]]
 .javax.enterprise.context.RequestScoped
-image::gfx/introduction/organize_imports_6.png[]
+image::../gfx/introduction/organize_imports_6.png[]
 
 You should end up with these imports:
 
@@ -619,7 +619,7 @@ Once these import statements are in place you should have no more compilation er
 
 [[project_explorer_jax_rs_services_image]]
 .Project Explorer JAX-RS Services
-image::gfx/introduction/project_explorer_jax_rs_services.png[]
+image::../gfx/introduction/project_explorer_jax_rs_services.png[]
 
 This feature of JBoss Developer Studio and JBoss Tools provides a nice visual indicator that you have successfully configured your JAX-RS endpoint. 
 
@@ -627,13 +627,13 @@ You should now redeploy your project via *Run As -> Run on Server*, or by right 
 
 [[full_publish_image]]
 .Full Publish
-image::gfx/introduction/full_publish.png[]
+image::../gfx/introduction/full_publish.png[]
 
 Using a browser, visit http://localhost:8080/ticket-monster/rest/events to see the results of the query, formatted as JSON (JavaScript Object Notation).
 
 [[json_event_results_image]]
 .JSON Response
-image::gfx/introduction/json_event_results.png[]
+image::../gfx/introduction/json_event_results.png[]
 
 [NOTE]
 =================================================================================
@@ -661,7 +661,7 @@ These next steps will guide you through the creation of a file called `mobile.ht
 First, using the Project Explorer, navigate to `src/main/webapp`, and right-click on `webapp`, and choose *New HTML file*.
 [[new_html_file_image]]
 .New HTML File
-image::gfx/introduction/new_html_file.png[]
+image::../gfx/introduction/new_html_file.png[]
 
 [CAUTION]
 =================================================================================
@@ -677,7 +677,7 @@ Change directory to `ticket-monster/src/main/webapp` and enter name the file `mo
 
 [[new_html_file_correct_location_image]]
 .New HTML File src/main/webapp
-image::gfx/introduction/new_html_file_correct_location.png[]
+image::../gfx/introduction/new_html_file_correct_location.png[]
 
 Select *Next*.
 
@@ -685,7 +685,7 @@ On the *Select HTML Template* page of the *New HTML File* wizard, select *HTML5 
 
 [[select_html_template]]
 .Select HTML5 jQuery Mobile Template
-image::gfx/introduction/select_html_template.png[]
+image::../gfx/introduction/select_html_template.png[]
 
 Select *Finish*.
 
@@ -705,7 +705,7 @@ As soon as the page loads, you will be prompted with an alert box with "Ready to
 
 [[jquery_mobile_template_image]]
 .jQuery Mobile Template
-image::gfx/introduction/jquery_mobile_template.png[]
+image::../gfx/introduction/jquery_mobile_template.png[]
 
 One side benefit of using a HTML5 + jQuery-based front-end to your application is that it allows for fast turnaround in development.  Simply edit the HTML file, save the file and refresh your browser.  
 
@@ -748,13 +748,13 @@ The result is ready for the average mobile phone. Simply refresh your browser to
 
 [[jquery_mobile_results_image]]
 .jQuery Mobile REST Results
-image::gfx/introduction/jquery_mobile_results.png[]
+image::../gfx/introduction/jquery_mobile_results.png[]
 
 JBoss Developer Studio and JBoss Tools includes BrowerSim to help you better understand what your mobile application will look like. Look for a "phone" icon in the toolbar, visible in the JBoss Perspective.
 
 [[mobile_browsersim_in_toolbar_image]]
 .Mobile BrowserSim icon in Eclipse Toolbar
-image::gfx/introduction/mobile_browsersim_in_toolbar.png[]
+image::../gfx/introduction/mobile_browsersim_in_toolbar.png[]
 
 [NOTE]
 =================================================================================
@@ -767,28 +767,28 @@ focused application!
 
 [[mobile_browsersim_image]]
 .Mobile BrowserSim
-image::gfx/introduction/mobile_browsersim.png[]
+image::../gfx/introduction/mobile_browsersim.png[]
 The Mobile BrowserSim has a Devices menu, on Mac it is in the top menu bar and on Windows it is available via right-click as a pop-up menu.   This menu allows you to change user-agent and dimensions of the browser, plus change the orientation of the device.  
 
 [[mobile_browsersim_devices_menu_image]]
 .Mobile BrowserSim Devices Menu
-image::gfx/introduction/mobile_browsersim_devices_menu.png[]
+image::../gfx/introduction/mobile_browsersim_devices_menu.png[]
 
 [[mobile_browsersim_windows_menu_image]]
 .Mobile BrowserSim on Windows 7
-image::gfx/introduction/mobile_browsersim_windows_menu.png[]
+image::../gfx/introduction/mobile_browsersim_windows_menu.png[]
 
 You can also add your own custom device/browser types.
 
 [[mobile_browsersim_custom_devices_image]]
 .Mobile BrowserSim Custom Devices Window
-image::gfx/introduction/mobile_browsersim_custom_devices.png[]
+image::../gfx/introduction/mobile_browsersim_custom_devices.png[]
 
 Under the *File* menu, you will find a *View Page Source* option that will open up the mobile-version of the website's source code inside of JBoss Developer Studio.  This is a very useful feature for learning how other developers are creating their mobile web presence. 
 
 [[mobile_browsersim_bofa_source_image]]
 .Mobile BrowserSim View Source
-image::gfx/introduction/mobile_browsersim_bofa_source.png[]
+image::../gfx/introduction/mobile_browsersim_bofa_source.png[]
 
 Conclusion
 ----------

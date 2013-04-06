@@ -91,13 +91,13 @@ For ticket category, the choice of natural identity is easy and obvious - it mus
 
 [[eclipse-generate-hashcode-equals]]
 .Generate hashCode() and equals() in Eclipse
-image::gfx/eclipse-generate-hashcode-equals.png[scaledwidth="50%"]
+image::../gfx/eclipse-generate-hashcode-equals.png[scaledwidth="50%"]
 
 Now, select the properties to include:
 
 [[eclipse-generate-hashcode-equals-2]]
 .Generate hashCode() and equals() in Eclipse
-image::gfx/eclipse-generate-hashcode-equals-2.png[scaledwidth="50%"]
+image::../gfx/eclipse-generate-hashcode-equals-2.png[scaledwidth="50%"]
 
 Now that we have a JavaBean, let's proceed to make it an entity. First, add the `@Entity` annotation to the class:
 
@@ -335,7 +335,7 @@ Finally, both events and venues can have "media items", such as images or videos
 
 [[database-design]]
 .Entity-Relationship Diagram
-image::gfx/database-design.png[scaledwidth="70%"]
+image::../gfx/database-design.png[scaledwidth="70%"]
 
 Media items
 ~~~~~~~~~~~
@@ -1611,7 +1611,7 @@ application is running on the server and use this value to connect to your runni
 database.
 [[h2console_settings]]
 .h2console settings
-image::gfx/h2console_settings.png[]
+image::../gfx/h2console_settings.png[]
 =====================================================================================
 
 Conclusion

@@ -21,7 +21,7 @@ In this tutorial, we will build a single-page application. All the necessary cod
 
 [[single-page-app_image]]
 .Single page application
-image::gfx/single-page-app.png[]
+image::../gfx/single-page-app.png[]
 
 Client-side MVC Support
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -36,7 +36,7 @@ In this application we use the client-side MVC framework "backbone.js".
 
 [[use-of-backbone_image]]
 .Backbone architecture
-image::gfx/backbone-usage.png[]
+image::../gfx/backbone-usage.png[]
 
 Modularity
 ~~~~~~~~~~
@@ -68,7 +68,7 @@ Before we start developing the user interface, we need to set up the general app
 
 [[ui-directory-structure]]
 .File structure for our web application
-image::gfx/ui-file-structure.png[]
+image::../gfx/ui-file-structure.png[]
 
 We put stylesheets in `resources/css` folder, images in `resources/img`, and HTML view templates in `resources/templates`. `resources/js` contains the JavaScript code, split between `resources/js/lib` - which contains the libraries used by the application, `resources/js/app` - which contains the application code, and `resources/configurations` which contains module definitions for the different versions of the application - i.e. mobile and desktop. The `resources/js/app` folder will contain the application modules, in subsequent subdirectories, for models, collections, routers and views.
 
@@ -715,7 +715,7 @@ This view is more complex than the global events view, as portions of the page n
 
 [[ui-event-detail]]
 .On the event details page some fragments are re-rendered when the user selects a venue
-image::gfx/ui-event-details.png[]
+image::../gfx/ui-event-details.png[]
 
 The view responds to three different events:
 
