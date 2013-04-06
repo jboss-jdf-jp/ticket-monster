@@ -41,7 +41,7 @@ to find shows, create bookings, or cancel bookings. The use cases are:
 
 [[end-user-use-cases-image]]
 .End user use cases
-image::gfx/ticket-monster-user-use-cases.png[]
+image::../gfx/ticket-monster-user-use-cases.png[]
 
 
 What can administrators do?
@@ -58,14 +58,14 @@ The use cases are:
 
 [[administration-use-cases-image]]
 .Administration use cases
-image::gfx/ticket-monster-administration-use-cases.png[]
+image::../gfx/ticket-monster-administration-use-cases.png[]
 
 Architecture
 ~~~~~~~~~~~~
 
 [[architecture-image]]
 .TicketMonster architecture
-image::gfx/ticket-monster-architecture.png[]
+image::../gfx/ticket-monster-architecture.png[]
 
 The application uses Java EE 6 services to provide business logic and persistence, utilizing
 technologies such as CDI, EJB 3.1 and JAX-RS, JPA 2. These services back the user-facing booking
