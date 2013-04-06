@@ -1520,7 +1520,7 @@ First enable one of the two profiles in the project. In Eclipse, open the projec
 
 [[eclipse-update-profiles]]
 .Update Maven profiles in Eclipse
-image::gfx/eclipse-maven-profile-update.png[scaledwidth="50%"]
+image::../gfx/eclipse-maven-profile-update.png[scaledwidth="50%"]
 
 The project configuration will be updated automatically.
 
@@ -1530,7 +1530,7 @@ The test suite will run, deploying the test classes to the application server, e
 
 [[eclipse-green-bar]]
 .Running the tests
-image::gfx/eclipse-green-bar.png[scaledwidth="50%"]
+image::../gfx/eclipse-green-bar.png[scaledwidth="50%"]
 
 
 
