@@ -23,7 +23,7 @@ In this example, we use Apache Cordova to implement a hybrid application using t
 
 [[ticket_monster_hybrid]]
 .Architecture of hybrid TicketMonster
-image::gfx/ticket_monster_hybrid.png[]
+image::../gfx/ticket_monster_hybrid.png[]
 
 Tweak your application for remote access
 ----------------------------------------
@@ -90,7 +90,7 @@ The next step is downloading and installing Apache Cordova. Download the distrib
 
 [[phonegap-distro-structure]]
 .Apache Cordova distribution
-image::gfx/cordova-distro-structure.png[]
+image::../gfx/cordova-distro-structure.png[]
 
 While migrating TicketMonster, we will work with the files in the `lib` directory. They contain native libraries for each of the supported platforms, as well JavaScript libraries . We have highlighted the contents of the `android` folder. The folders for the other platforms have similar content.
 
@@ -131,7 +131,7 @@ Now we can create a new Android project.
 +
 [[android-app-project-package]]
 .Entering the application name, project name and package
-image::gfx/android-app-project-package.png[]
+image::../gfx/android-app-project-package.png[]
 
 3. Select default values for the next couple of screens ('Configure New Project', 'Launcher icon').
 +
@@ -141,21 +141,21 @@ image::gfx/android-app-project-package.png[]
 
 [[android-activity-type]]
 .Select activity type
-image::gfx/android-activity-type.png[]
+image::../gfx/android-activity-type.png[]
 
 5. Name the newly created activity `TicketMonsterActivity`.
 +
 
 [[android-activity-name]]
 .Name the new activity
-image::gfx/android-activity-name.png[]
+image::../gfx/android-activity-name.png[]
 
 
 A final step involves adding the Apache Cordova library to the project. Copy the `lib/android/cordova-2.0.0.jar` file from the Cordova distribution into the `lib` folder of the project.
 
 [[add-cordova-jar]]
 .Add the Cordova jar
-image::gfx/add-cordova-jar.png[]
+image::../gfx/add-cordova-jar.png[]
  
 
 Once you have finished creating the project, navigate to the `assets` directory. Now we need to create a `www` directory, that will contain the HTML5 code of the application. Since we are reusing the TicketMonster code you can simply create a symbolic link to the `webapp` directory of TicketMonster. Alternatively, you can copy the code of TicketMonster and make all necessary changes there (however, in that case you will have to maintain the code of the application).
